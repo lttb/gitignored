@@ -1,0 +1,30 @@
+{
+  "name": "gitignored",
+  "version": "0.0.1",
+  "description": "Check if staged files should be ignored by https://github.com/github/gitignore",
+  "main": "src/index.js",
+  "bin": "bin/index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint .",
+    "preversion": "npm run lint",
+    "postversion": "git push --follow-tags && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/lttb/gitignored.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.12.2",
+    "cosmiconfig": "^3.1.0",
+    "eslint": "^4.13.1",
+    "gitignore-parser": "0.0.2",
+    "mkdirp": "^0.5.1",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "@lttb/eslint-config-default": "github:lttb/configs#js",
+    "eslint": "^4.13.1"
+  }
+}

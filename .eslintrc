@@ -1,0 +1,9 @@
+extends: '@lttb/default'
+
+rules:
+  strict:
+    - error
+    - safe
+
+parserOptions:
+    sourceType: script
