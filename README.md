@@ -18,6 +18,9 @@ For example `package.json`:
 ```json
 "lint-staged": {
   "*": "gitignored"
+},
+"gitignored": {
+  "types": ["Global/macOS", "Global/Linux"]
 }
 ```
 
