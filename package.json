@@ -1,6 +1,6 @@
 {
   "name": "gitignored",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check if staged files should be ignored by https://github.com/github/gitignore",
   "main": "src/index.js",
   "bin": "bin/index.js",
