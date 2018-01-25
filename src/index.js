@@ -33,7 +33,7 @@ program
 
             if (errors.length) {
               return Promise.reject(
-                `You're going to stage ignored files: \n\n - ${errors.join('\n - ')}`,
+                `You're going to stage ignored files: \n\n - ${errors.join('\n - ')}`
               )
             }
 
